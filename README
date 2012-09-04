@@ -1,0 +1,7 @@
+This is a Mathematica implementation of a multilayer perceptron, also known as a neural network.
+
+All activitation functions are sigmoidal, making the perceptron only suitable for classification.  Two sample data sets are included: the classic XOR problem and SP500 stock market data.  
+
+The XOR data is formatted as three values, the first two are inputs, the third is the output.  For example, the statement True XOR True = False is encoded as 1 1 0.
+
+The SP500 data is formatted as a row of 5 values, the first four being a +1 or -1 indicating whether the index has risen or fallen on consecutive days.  The last value is a +1 or -1 indicating whether the index has risen or fallen on the fifth day.  A rising index is defined as one that has increased more than 15 points, whereas a falling index is one that has decreased more than 15 points.  The value of 15 is the standard deviation of the index over the 2 year period of the data.
